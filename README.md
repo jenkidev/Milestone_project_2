@@ -12,6 +12,8 @@
     2. [User Requirements and Expectations](#user-requrements-and-expectations)
     3. [User Stories](#user-stories)
     4. [Scope](#scope)
+3. [Design of Site](#design-of-site)
+    1. [Initial Idea](#initial-idea)
 
 
 ## Project Goals
@@ -66,3 +68,11 @@ The scope of the project in it’s first release is defined by the following fea
 - Fully functional contact form with emailJS that will not submit unless all fields are filled out.
 - A 404 error page that is styled and allows navigation back to the main page.
 - Clear favicon that shows the site logo.
+
+## Design of Site
+
+### Initial idea
+The initial design idea of the site is to create a simple memory card flipping game for a user to have fun with. The focus of the site is to be on the game and so I will create a simple hosting site which does not distract from the purpose. To keep within the theme of the card flipping all options on the scrolling webpage will be contained within card flipping containers to allow the interactivity to extend beyond the game. 
+
+### Colours
+The colours selected for this project are meant to be complementary and boldly distinct from one another. The colour theme for the containers are meant to mimic the self designed logo.
