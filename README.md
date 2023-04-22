@@ -84,7 +84,7 @@ The colours selected for this project are meant to be complementary and boldly d
 </details>
 
 <details><summary>index.html(Clicked)</summary>
-<img src="Docs/Wireframes/Clicked Mobile Home page.png" alt="unclicked Mobile wireframe">
+<img src="Docs/Wireframes/Clicked Mobile home page.png" alt="unclicked Mobile wireframe">
 </details>
 
 <details><summary>game.html</summary>
