@@ -76,3 +76,17 @@ The initial design idea of the site is to create a simple memory card flipping g
 
 ### Colours
 The colours selected for this project are meant to be complementary and boldly distinct from one another. The colour theme for the containers are meant to mimic the self designed logo. #F060B7
+
+### Wireframes
+
+<details><summary>index.html(Unclicked)</summary>
+<img src="Docs/Wireframes/Unclicked Mobile Home page.png" alt="unclicked Mobile wireframe">
+</details>
+
+<details><summary>index.html(Clicked)</summary>
+<img src="Docs/Wireframes/Clicked Mobile Home page.png" alt="unclicked Mobile wireframe">
+</details>
+
+<details><summary>game.html</summary>
+<img src="Docs/Wireframes/Mobile Game page.png" alt="Mobile Game">
+</details>
