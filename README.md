@@ -75,4 +75,4 @@ The scope of the project in it’s first release is defined by the following fea
 The initial design idea of the site is to create a simple memory card flipping game for a user to have fun with. The focus of the site is to be on the game and so I will create a simple hosting site which does not distract from the purpose. To keep within the theme of the card flipping all options on the scrolling webpage will be contained within card flipping containers to allow the interactivity to extend beyond the game. 
 
 ### Colours
-The colours selected for this project are meant to be complementary and boldly distinct from one another. The colour theme for the containers are meant to mimic the self designed logo.
+The colours selected for this project are meant to be complementary and boldly distinct from one another. The colour theme for the containers are meant to mimic the self designed logo. #F060B7
