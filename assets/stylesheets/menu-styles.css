@@ -2,3 +2,26 @@ html {
     height: 100%;
     background: linear-gradient(180deg, #341883 69.27%, #000000 100%);
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #d7d7d7;
+}
+
+.logo{
+    margin: 15px 0px 0px 15px;
+    
+}
+
+.menu, ul{
+    display: inline-flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.menu, li{
+    padding-right: 20px;
+}
