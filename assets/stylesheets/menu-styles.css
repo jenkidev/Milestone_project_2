@@ -1,7 +1,11 @@
+/*Full page styling*/
+
 html {
     height: 100%;
     background: linear-gradient(180deg, #341883 69.27%, #000000 100%);
 }
+
+/*Styling for header and header elements*/
 
 header{
     display: flex;
@@ -27,3 +31,6 @@ header{
 .menu, li{
     padding-right: 40px;
 }
+
+/*Styling for main body containers*/
+
