@@ -47,3 +47,34 @@ section{
     background: #F060B7;
 
 }
+
+.about-div{
+    width: 438px;
+    height: 288px;
+    display: inline-flex;
+    margin: 6rem 6rem;
+    border-radius: 20px;
+    background: #F060B7;
+
+}
+
+.stats-div{
+    width: 438px;
+    height: 288px;
+    display: inline-flex;
+    margin: 6rem 6rem;
+    border-radius: 20px;
+    background: #F060B7;
+
+}
+
+.contact-div{
+    width: 438px;
+    height: 288px;
+    display: inline-flex;
+    margin: 6rem 6rem;
+    border-radius: 20px;
+    background: #F060B7;
+
+}
+
