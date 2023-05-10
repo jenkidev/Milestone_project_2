@@ -1,8 +1,11 @@
 /*Full page styling*/
 
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
+
 html {
     min-height: 100%;
     background: linear-gradient(180deg, #341883 69.27%, #000000 100%);
+    font-family: 'Exo';
 }
 
 /*Styling for header and header elements*/
@@ -30,6 +33,17 @@ header{
 
 .menu, li{
     padding-right: 40px;
+}
+
+/*Styling for hero text*/
+
+.hero-text{
+    color: #d7d7d7;
+    font-weight: 600;
+    font-size: 34px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
 
 /*Styling for main body containers*/
