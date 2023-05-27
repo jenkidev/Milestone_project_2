@@ -4,3 +4,17 @@ body {
     background: linear-gradient(#0d4117, #000000);
     
 }
+
+img{
+    width: max-content;
+    height: max-content;
+}
+
+.memory-game {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
