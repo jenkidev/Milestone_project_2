@@ -5,3 +5,9 @@ let lockBoard = false;
 let firstCard, secondCard;
 let moves = 0;
 let gameStarted = false;
+
+function flipCard() {
+    if (gameStarted == false){
+        gameStarted = true;
+    }
+}
