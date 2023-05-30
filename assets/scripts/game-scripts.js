@@ -52,7 +52,14 @@ function unflipCards() {
 function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
+}   
 
-}    
+//Shuffles memory cards in random positions
+(function shuffle () {
+  cards.forEach(card => {
+      let randomPos = Math.floor(Math.random() * 12);
+      card.style.order = randomPos;
+  })
+})();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
