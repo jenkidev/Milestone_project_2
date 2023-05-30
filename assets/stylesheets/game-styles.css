@@ -2,12 +2,12 @@ body {
     height: 100vh;
     display: flex;
     background: linear-gradient(#0d4117, #000000);
-    
+    background-size: 100%;
 }
 
 img{
-    width: max-content;
-    height: max-content;
+    width: 100px;
+    height: 100px;
 }
 
 .memory-game {
@@ -17,4 +17,23 @@ img{
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+}
+
+.menu{
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.memory-card{
+    width: calc(16.666% - 10px);
+    height: calc(20% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: .5s;
 }
