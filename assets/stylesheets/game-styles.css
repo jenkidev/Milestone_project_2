@@ -53,3 +53,7 @@ img{
     background: #000000;
     backface-visibility: hidden;
 }
+
+.front-face {
+    transform: rotateY(180deg);
+}
