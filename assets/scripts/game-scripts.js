@@ -3,16 +3,14 @@ const cards = document.querySelectorAll('.memory-card');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
-let moves = 0;
-let gameStarted = false;
+
 
 function flipCard() {
-    if (gameStarted == false){
-        gameStarted = true;
-    }
     if (lockBoard) return;
     if (this === firstCard) return;
+    
     this.classList.add('flip');
+    
     if (!hasFlippedCard) {
       // first click
       hasFlippedCard = true;
@@ -36,6 +34,7 @@ function checkForMatch() {
 function disableFlipCards() {
         firstCard.removeEventListener('click', flipCard);
         secondCard.removeEventListener('click', flipCard);
+        resetBoard();
     }      
 
 //unflip cards if not a match
@@ -46,8 +45,14 @@ function unflipCards() {
             firstCard.classList.remove('flip');
             secondCard.classList.remove('flip');
     
-            lockBoard = false;
+            resetBoard();
           }, 1000);
-    }     
+    }
+
+function resetBoard() {
+  [hasFlippedCard, lockBoard] = [false, false];
+  [firstCard, secondCard] = [null, null];
+
+}    
 
 cards.forEach(card => card.addEventListener('click', flipCard));
