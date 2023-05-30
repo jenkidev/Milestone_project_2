@@ -27,4 +27,9 @@ function flipCard() {
     }
   }
 
+  function checkForMatch() {
+    let isMatch = firstCard.dataset.frame === secondCard.dataset.frame;
+        isMatch ? disableFlipCards() : unflipCards();
+      }  
+
 cards.forEach(card => card.addEventListener('click', flipCard));
