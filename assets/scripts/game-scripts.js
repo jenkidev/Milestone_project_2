@@ -11,3 +11,5 @@ function flipCard() {
         gameStarted = true;
     }
 }
+
+cards.forEach(card => card.addEventListener('click', flipCard));
