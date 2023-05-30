@@ -27,9 +27,27 @@ function flipCard() {
     }
   }
 
-  function checkForMatch() {
+function checkForMatch() {
     let isMatch = firstCard.dataset.frame === secondCard.dataset.frame;
         isMatch ? disableFlipCards() : unflipCards();
       }  
+
+//remove event listener if there is a match      
+function disableFlipCards() {
+        firstCard.removeEventListener('click', flipCard);
+        secondCard.removeEventListener('click', flipCard);
+    }      
+
+//unflip cards if not a match
+function unflipCards() {
+        lockBoard = true;
+    
+        setTimeout(() => {
+            firstCard.classList.remove('flip');
+            secondCard.classList.remove('flip');
+    
+            lockBoard = false;
+          }, 1000);
+    }     
 
 cards.forEach(card => card.addEventListener('click', flipCard));
