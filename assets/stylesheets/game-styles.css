@@ -37,3 +37,8 @@ img{
     transform-style: preserve-3d;
     transition: .5s;
 }
+
+.memory-card:active {
+    transform: scale(.97);
+    transition: transform .2s;
+}
