@@ -8,7 +8,7 @@ body {
     height: 100vh;
     display: flex;
     background: linear-gradient(#0d4117, #000000);
-    background-size: 100%;
+    background-attachment: fixed;
 }
 
 img{
