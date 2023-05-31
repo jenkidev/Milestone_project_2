@@ -19,6 +19,7 @@ body {
     text-align: center;
     padding-top: 5px;
     margin: auto;
+    font-size: 30px;
 }
 
 .moves {
@@ -26,6 +27,8 @@ body {
     height: 50px;
     background: #ffff;
     margin: auto;
+    padding-top: 5px;
+    
 }
 
 .home {
@@ -33,6 +36,7 @@ body {
     height: 50px;
     background: #ffff;
     margin: auto;
+    padding-top: 5px;
 }
 
 .timer {
@@ -40,6 +44,7 @@ body {
     height: 50px;
     background: #ffff;
     margin: auto;
+    padding-top: 5px;
 }
 
 img{
