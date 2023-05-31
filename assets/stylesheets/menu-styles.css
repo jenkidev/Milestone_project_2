@@ -39,6 +39,7 @@ header{
 
 .banner, li{
     padding-right: 40px;
+    padding-top: 20px;
 }
 
 /*Styling for hero text*/
@@ -48,6 +49,7 @@ header{
     font-weight: 600;
     font-size: 34px;
     height: 50px;
+    padding: 20px;
     text-align: center;
     line-height: 50px;
 }
