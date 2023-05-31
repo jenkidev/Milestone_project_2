@@ -131,5 +131,8 @@ section{
 }
 
 .social-div{
+    width: 50%;
+    height: 100px;
+    margin: 30px auto;
     background-color: #a3a3a3;
 }
