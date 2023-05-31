@@ -25,26 +25,31 @@ body {
 .moves {
     width: calc(33% - 5px);
     height: 50px;
-    background: #ffff;
+    background: #5DFE9E;
     margin: auto;
     padding-top: 5px;
-    
+    border-radius: 5px;
+    border: 5px solid #0b7435; 
 }
 
 .home {
     width: calc(33% - 5px);
     height: 50px;
-    background: #ffff;
+    background: #5DFE9E;
     margin: auto;
     padding-top: 5px;
+    border-radius: 5px;
+    border: 5px solid #0b7435; 
 }
 
 .timer {
     width: calc(33% - 5px);
     height: 50px;
-    background: #ffff;
+    background: #5DFE9E;
     margin: auto;
     padding-top: 5px;
+    border-radius: 5px;
+    border: 5px solid #0b7435; 
 }
 
 img{
