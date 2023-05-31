@@ -1,4 +1,9 @@
 /*Full page styling*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
 
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
