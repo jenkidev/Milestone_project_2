@@ -42,6 +42,14 @@ header{
     padding-top: 20px;
 }
 
+.banner, a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #a3a3a3;
+}
 /*Styling for hero text*/
 
 .hero-text{
