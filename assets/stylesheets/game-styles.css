@@ -7,8 +7,39 @@
 body {
     height: 100vh;
     display: flex;
-    background: linear-gradient(#0d4117, #000000);
+    background: linear-gradient(180deg, #341883 69.27%, #000000 100%);
     background-attachment: fixed;
+}
+
+.game-info {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+}
+
+.moves {
+    width: calc(33% - 5px);
+    height: 50px;
+    background: #ffff;
+    margin: auto;
+}
+
+.home {
+    width: calc(33% - 5px);
+    height: 50px;
+    background: #ffff;
+    margin: auto;
+}
+
+.timer {
+    width: calc(33% - 5px);
+    height: 50px;
+    background: #ffff;
+    margin: auto;
 }
 
 img{
