@@ -1,8 +1,10 @@
 const cards = document.querySelectorAll('.memory-card');
+const moveContainer = document.querySelector('.moves')
 
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let moves = 0;
 
 
 function flipCard() {
@@ -28,6 +30,7 @@ function flipCard() {
 function checkForMatch() {
     let isMatch = firstCard.dataset.frame === secondCard.dataset.frame;
         isMatch ? disableFlipCards() : unflipCards();
+        addMove();
       }  
 
 //remove event listener if there is a match      
@@ -61,5 +64,11 @@ function resetBoard() {
       card.style.order = randomPos;
   })
 })();
+
+//Move tracker 
+function addMove() {
+  moves++;
+  moveContainer.innerHTML = "Moves: " + moves;
+}
 
 cards.forEach(card => card.addEventListener('click', flipCard));
