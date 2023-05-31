@@ -81,3 +81,11 @@ section{
     font-family:"Exo", sans-serif;
     position: relative;
 }
+
+.front-face,
+.back-face {
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    backface-visibility: hidden;
+}
