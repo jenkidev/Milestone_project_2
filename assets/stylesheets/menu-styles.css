@@ -68,7 +68,7 @@ section{
     display:grid;
     grid-template-columns: 400px 400px;
     grid-row: auto auto;
-    grid-column-gap: 100px;
+    grid-column-gap: 200px;
     grid-row-gap: 100px;
     overflow: auto;
 }
