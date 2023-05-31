@@ -72,7 +72,7 @@ section{
 .menu{
     margin: 125px auto;
     width: 1024px;
-    height:500px;
+    height:300px;
     display:grid;
     grid-template-columns: 400px 400px;
     grid-row: auto auto;
