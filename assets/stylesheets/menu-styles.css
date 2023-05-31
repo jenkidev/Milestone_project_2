@@ -81,6 +81,9 @@ section{
     font-size:24px;
     font-family:"Exo", sans-serif;
     position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: .5s;
 }
 
 .front-face,
