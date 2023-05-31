@@ -89,3 +89,11 @@ section{
     border-radius: 5px;
     backface-visibility: hidden;
 }
+
+.menu-card.flip {
+    transform: rotateY(180deg);
+}
+
+.front-face {
+    transform: rotateY(180deg);
+}
