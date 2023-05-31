@@ -92,7 +92,7 @@ function timer() {
             minutes++;
             seconds = 0;
         }
-        timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+        timeContainer.innerHTML = "Time- Minutes: " + minutes + " Seconds: " + seconds;
     }, 1000);
 }
 
