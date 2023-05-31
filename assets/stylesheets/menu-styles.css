@@ -136,3 +136,7 @@ section{
     margin: 30px auto;
     background-color: #a3a3a3;
 }
+
+.social-div a:hover{
+    color: #3e169d;
+}
