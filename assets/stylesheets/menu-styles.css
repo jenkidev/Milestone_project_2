@@ -28,7 +28,7 @@ header{
     
 }
 
-.menu, ul{
+.banner, ul{
     display: inline-flex;
     justify-content: flex-end;
     list-style-type: none;
@@ -36,7 +36,7 @@ header{
     font-weight: 800;
 }
 
-.menu, li{
+.banner, li{
     padding-right: 40px;
 }
 
@@ -58,51 +58,5 @@ section{
 
 }
 
-.menu-card p{
-    margin: auto;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 500;
-    color: #282828;
-}
 
-.play-div{
-    width: 438px;
-    height: 288px;
-    display: inline-flex;
-    margin: 6rem 6rem;
-    border-radius: 20px;
-    background: #F060B7;
-
-}
-
-.about-div{
-    width: 438px;
-    height: 288px;
-    display: inline-flex;
-    margin: 6rem 6rem;
-    border-radius: 20px;
-    background: #FF9B25;
-
-}
-
-.stats-div{
-    width: 438px;
-    height: 288px;
-    display: inline-flex;
-    margin: 6rem 6rem;
-    border-radius: 20px;
-    background: #5DFE9E;
-
-}
-
-.contact-div{
-    width: 438px;
-    height: 288px;
-    display: inline-flex;
-    margin: 6rem 6rem;
-    border-radius: 20px;
-    background: #70DDFF;
-
-}
 
