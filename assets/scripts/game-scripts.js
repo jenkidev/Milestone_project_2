@@ -96,4 +96,8 @@ function timer() {
     }, 1000);
 }
 
+function stopTimer() {
+  clearInterval(time);
+}
+
 cards.forEach(card => card.addEventListener('click', flipCard));
