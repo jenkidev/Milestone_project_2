@@ -70,8 +70,9 @@ img{
 }
 
 .memory-game {
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 600px;
+    padding-top: 20px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +90,7 @@ img{
 
 .memory-card{
     width: calc(25% - 10px);
-    height: calc(50% - 10px);
+    height: calc(25% - 10px);
     margin: 5px;
     position: relative;
     transform: scale(1);
