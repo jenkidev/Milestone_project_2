@@ -97,3 +97,19 @@ section{
 .front-face {
     transform: rotateY(180deg);
 }
+
+.play-div{
+    background-color: #F060B7;
+}
+
+.about-div{
+    background-color: #FF9B25;
+}
+
+.stats-div{
+    background-color: #5DFE9E;
+}
+
+.contact-div{
+    background-color: #70DDFF;
+}
