@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
+
 *{
     padding: 0;
     margin: 0;
@@ -20,6 +22,8 @@ body {
     padding-top: 5px;
     margin: auto;
     font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 800;
 }
 
 .moves {
@@ -27,7 +31,6 @@ body {
     height: 50px;
     background: #5DFE9E;
     margin: auto;
-    padding-top: 5px;
     border-radius: 5px;
     border: 5px solid #0b7435; 
 }
@@ -37,7 +40,6 @@ body {
     height: 50px;
     background: #5DFE9E;
     margin: auto;
-    padding-top: 5px;
     border-radius: 5px;
     border: 5px solid #0b7435; 
 }
@@ -47,7 +49,6 @@ body {
     height: 50px;
     background: #5DFE9E;
     margin: auto;
-    padding-top: 5px;
     border-radius: 5px;
     border: 5px solid #0b7435; 
 }
