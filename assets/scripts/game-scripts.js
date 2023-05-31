@@ -1,13 +1,20 @@
 const cards = document.querySelectorAll('.memory-card');
-const moveContainer = document.querySelector('.moves')
+const moveContainer = document.querySelector('.moves');
+const timeContainer = document.querySelector(".timer");
 
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 let moves = 0;
+let gameStarted = false;
 
 
 function flipCard() {
+  if (gameStarted == false){
+    timer();
+    gameStarted = true;
+  }
+
     if (lockBoard) return;
     if (this === firstCard) return;
     
@@ -69,6 +76,24 @@ function resetBoard() {
 function addMove() {
   moves++;
   moveContainer.innerHTML = "Moves: " + moves;
+}
+
+//Play Timer
+let time;
+let minutes = 0;
+let seconds = 0;
+let timeStart = false;
+timeContainer.innerHTML = "Time- Minutes: " + minutes + " Seconds: " + seconds;
+
+function timer() {
+    time = setInterval(function() {
+        seconds++;
+        if (seconds === 59) {
+            minutes++;
+            seconds = 0;
+        }
+        timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+    }, 1000);
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
