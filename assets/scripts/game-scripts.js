@@ -1,11 +1,13 @@
 const cards = document.querySelectorAll('.memory-card');
 const moveContainer = document.querySelector('.moves');
 const timeContainer = document.querySelector(".timer");
+const maxMatch = 8;
 
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 let moves = 0;
+let perfectMatch = 0
 let gameStarted = false;
 
 
@@ -37,7 +39,9 @@ function flipCard() {
 function checkForMatch() {
     let isMatch = firstCard.dataset.frame === secondCard.dataset.frame;
         isMatch ? disableFlipCards() : unflipCards();
+        if (isMatch){perfectMatch += 1};
         addMove();
+        if (perfectMatch === maxMatch )winGame();
       }  
 
 //remove event listener if there is a match      
@@ -98,6 +102,10 @@ function timer() {
 
 function stopTimer() {
   clearInterval(time);
+}
+
+function winGame() {
+  stopTimer();
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
