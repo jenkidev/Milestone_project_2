@@ -133,6 +133,7 @@ img{
     justify-content: center;
     align-items: center;
     display: none;
+   
 }
 
 .modal-content {
@@ -141,9 +142,32 @@ img{
     background-color: white;
     border-radius: 5px;
     text-align: center;
+    font-size: 20px;
+    font-family: "Exo", sans-serif;
 }
 
 .modal-image {
     height: 200px;
     width: 100px;
+}
+
+.modal-reload{
+    margin: 25px auto;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    background-color: #341883;
+    color:#ffff;
+    border-radius: 10px;
+}
+
+.modal-home{
+    margin: 25px auto;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    background-color: #341883;
+    color:#ffff;
+    border-radius: 10px;
 }
