@@ -8,7 +8,6 @@ let lockBoard = false;
 let firstCard, secondCard;
 let moves = 0;
 let perfectMatch = 0;
-let finalTime = "";
 let gameStarted = false;
 
 
@@ -40,7 +39,7 @@ function flipCard() {
 function checkForMatch() {
     let isMatch = firstCard.dataset.frame === secondCard.dataset.frame;
         isMatch ? disableFlipCards() : unflipCards();
-        if (isMatch){perfectMatch += 1};
+        if (isMatch) {perfectMatch += 1};
         addMove();
         if (perfectMatch === maxMatch )winGame();
       }  
@@ -74,7 +73,7 @@ function resetBoard() {
   cards.forEach(card => {
       let randomPos = Math.floor(Math.random() * 12);
       card.style.order = randomPos;
-  })
+  });
 })();
 
 //Move tracker 
@@ -87,7 +86,6 @@ function addMove() {
 let time;
 let minutes = 0;
 let seconds = 0;
-let timeStart = false;
 timeContainer.innerHTML = "Time- Minutes: " + minutes + " Seconds: " + seconds;
 
 function timer() {
