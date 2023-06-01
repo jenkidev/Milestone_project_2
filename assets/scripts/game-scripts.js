@@ -106,6 +106,11 @@ function stopTimer() {
 
 function winGame() {
   stopTimer();
+  winnerMessage();
+}
+
+function winnerMessage() {
+  document.querySelector('.bg-modal').style.display = "flex";
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
