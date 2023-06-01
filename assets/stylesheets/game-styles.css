@@ -141,3 +141,8 @@ img{
     border-radius: 5px;
     text-align: center;
 }
+
+.modal-image {
+    height: 200px;
+    width: 100px;
+}
