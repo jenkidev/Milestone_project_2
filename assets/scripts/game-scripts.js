@@ -7,7 +7,8 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 let moves = 0;
-let perfectMatch = 0
+let perfectMatch = 0;
+let finalTime = "";
 let gameStarted = false;
 
 
