@@ -71,10 +71,10 @@ img{
 }
 
 .memory-game {
-    width: 700px;
-    height: 600px;
+    width: 80vw;
+    height: 80vh;
     padding-top: 20px;
-    margin: auto;
+    margin: 10vh 10vw;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
