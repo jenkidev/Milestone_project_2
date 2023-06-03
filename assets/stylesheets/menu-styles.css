@@ -188,7 +188,7 @@ section{
         grid-row: auto;
         grid-column-gap: 200px;
         grid-row-gap: 100px;
-        overflow: auto;
+        overflow: hidden;
     }
     
     .menu-card {
@@ -212,4 +212,11 @@ section{
     }
 
     
+}
+
+/*Media query for Tablets*/
+
+@media only screen and (min-width: 450px) and (max-width: 912px) {
+
+   
 }
