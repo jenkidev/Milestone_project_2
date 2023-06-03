@@ -24,21 +24,20 @@ header{
 
 .logo, img{
     margin: 15px 0px 0px 15px;
-    height: 200px;
-    width: 200px;
+    height: 66%;
+    width: 66%;
     
 }
 
 .banner, ul{
     display: inline-flex;
-    justify-content: flex-end;
     list-style-type: none;
-    font-size: 30px;
+    text-align: center;
+    font-size: 6vw;
     font-weight: 800;
 }
 
 .banner, li{
-    padding-right: 40px;
     padding-top: 20px;
 }
 
@@ -55,11 +54,11 @@ a:hover {
 .hero-text{
     color: #d7d7d7;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 3vh;
     height: 50px;
     padding: 20px;
     text-align: center;
-    line-height: 50px;
+    line-height: 4vh;
 }
 
 /*Styling for main body containers*/
@@ -67,6 +66,30 @@ a:hover {
 section{
     display: flex;
 
+}
+
+.menu{
+    margin: 10vh auto;
+    width: 90vw;
+    height: 50vh;
+}
+
+.menu-card {
+    padding:20px;
+    border-radius:10px;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    height: 20vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    font-size:24px;
+    font-weight: 600;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: .5s;
 }
 
 .menu-card a{
@@ -108,7 +131,7 @@ section{
 .social-div{
     width: 50%;
     height: 100px;
-    margin: 30px auto;
+    margin: 10vh auto;
     background-color: #a3a3a3;
 }
 
@@ -119,14 +142,47 @@ section{
 /*Media query for larger devices*/
 
 @media only screen and (min-width: 450px) {
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        color: #d7d7d7;
+    }
+    
+    .logo, img{
+        margin: 15px 0px 0px 15px;
+        height: 200px;
+        width: 200px;
+        
+    }
+    
+    .banner, ul{
+        display: inline-flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    
+    .banner, li{
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+
     .hero-text{
-        margin-top: 20px;
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 34px;
+        height: 50px;
+        padding: 20px;
+        text-align: center;
+        line-height: 50px;
     }
     
     .menu{
         margin: 125px auto;
         width: 1024px;
-        height:300px;
+        height:350px;
         display:grid;
         grid-template-columns: 400px 400px;
         grid-row: auto;
@@ -136,17 +192,24 @@ section{
     }
     
     .menu-card {
-        padding:20px;
-        border-radius:10px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        font-size:24px;
+        font-size: 24px;
         font-weight: 600;
         position: relative;
         transform: scale(1);
         transform-style: preserve-3d;
         transition: .5s;
     }
+
+    .social-div{
+        height: 100px;
+    }
+
+    
 }
