@@ -154,13 +154,14 @@ section{
 
 form{
     background: #a3a3a3;
+    color: #ffffff;
     position: fixed;
     height: fit-content;
     width: 50%;
     justify-content: center;
     text-align: center;
     border-radius: 10px;
-    top: 40vh;
+    top: 33vh;
     left: 25vw;
     font-size: 3vw;
 
