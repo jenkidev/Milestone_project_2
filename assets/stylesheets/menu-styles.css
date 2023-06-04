@@ -55,9 +55,13 @@ a:hover {
 
 .hero-text{
     color: #d7d7d7;
+    background-color: #383838;
+    height: fit-content;
+    width: 90%;
+    margin: 5vh auto;
+    border-radius: 10px;
     font-weight: 600;
     font-size: 3vh;
-    height: 50px;
     padding: 20px;
     text-align: center;
     line-height: 4vh;
