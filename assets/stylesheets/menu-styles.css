@@ -250,7 +250,11 @@ section{
    }
 
    .social-div{
-        height: 10vh;
+        height: 12vh;
         margin: 5vh auto;
+   }
+
+   .front-face{
+        font-size: 50%;
    }
 }
