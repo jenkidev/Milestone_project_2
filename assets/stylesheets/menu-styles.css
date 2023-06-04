@@ -170,6 +170,7 @@ form{
 
 form label{
     margin: 1vh 1%;
+    font-size: 3vw;
 }
 
 form input{
