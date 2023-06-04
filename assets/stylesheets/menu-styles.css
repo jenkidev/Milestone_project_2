@@ -150,6 +150,23 @@ section{
     color: #3e169d;
 }
 
+/*Contact form Styling*/
+
+form{
+    background: #a3a3a3;
+    position: fixed;
+    height: fit-content;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    top: 33vh;
+    left: 20vw;
+    font-size: 3vw;
+
+}
+
+
 /*Media query for larger devices*/
 
 @media only screen and (min-width: 450px) {
