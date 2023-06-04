@@ -126,6 +126,11 @@ section{
     background-color: #FF9B25;
 }
 
+.front-face{
+    font-size: 18px;
+}
+
+
 .stats-div{
     background-color: #5DFE9E;
 }
