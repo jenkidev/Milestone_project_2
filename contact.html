@@ -11,7 +11,6 @@
     <script type="text/javascript">
     (function(){
         emailjs.init("Iw8TFysbugKKsDqz7");
-        emailjs.send("service_zm8fwun", "template_1b3ozjh", {Name: "James", Subject:"I have an idea for the game"}, "Iw8TFysbugKKsDqz7");
     })();
     </script>
     <title>Flip- The Animal Matching Card Game</title>
@@ -32,7 +31,7 @@
             </nav>
         </div>
         <div>
-            <form action="index.html" method="get">
+            <form id="contactForm" onsubmit="return sendMail(this);" action="index.html">
                 <label for="name">Full Name:</label><br>
                 <input type="text" id="name" name="name" aria-label="Full-name" required><br>
                 <label for="email">Email Address:</label><br>
@@ -44,5 +43,7 @@
             </form>
         </div>
     </header>
+    <script src="assets/scripts/contact.js"></script>
 </body>
+
 </html>
