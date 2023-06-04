@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="assets/stylesheets/menu-styles.css" type="text/css">
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("YOUR_PUBLIC_KEY");
-   })();
-</script>
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("Iw8TFysbugKKsDqz7");
+        emailjs.send("service_zm8fwun", "template_1b3ozjh", {Name: "James", Subject:"I have an idea for the game"}, "Iw8TFysbugKKsDqz7");
+    })();
+    </script>
     <title>Flip- The Animal Matching Card Game</title>
 </head>
 <body>
@@ -34,6 +35,12 @@
             <form action="index.html" method="get">
                 <label for="name">Full Name:</label><br>
                 <input type="text" id="name" name="name" aria-label="Full-name" required><br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="name" name="name" aria-label="Full-name" required><br>
+                <label for="idea">Please let us know of any suggestions you have for the game.</label><br>
+                <textarea aria-label="medical information text-area" id="medical" name="medical" rows="3" cols="20"></textarea><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
             </form>
         </div>
     </header>
