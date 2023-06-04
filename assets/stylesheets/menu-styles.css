@@ -10,7 +10,9 @@
 
 html {
     min-height: 100%;
-    background: linear-gradient(180deg, #341883 69.27%, #000000 100%);
+    background: url("../images/Tree_Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Exo', sans-serif;
 }
 
@@ -19,7 +21,7 @@ html {
 header{
     display: flex;
     justify-content: space-between;
-    color: #d7d7d7;
+    color: #ffffff;
 }
 
 .logo, img{
