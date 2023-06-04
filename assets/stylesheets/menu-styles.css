@@ -35,12 +35,14 @@ header{
     display: inline-flex;
     list-style-type: none;
     text-align: center;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 800;
+    margin-right: 10px;
 }
 
 .banner, li{
     padding-top: 20px;
+    margin-left: 5vw;
 }
 
 .banner, a {
@@ -157,14 +159,21 @@ form{
     color: #ffffff;
     position: fixed;
     height: fit-content;
-    width: 50%;
+    width: 75%;
     justify-content: center;
     text-align: center;
     border-radius: 10px;
-    top: 33vh;
-    left: 25vw;
+    top: 35vh;
+    left: 12.5vw;
     font-size: 3vw;
+}
 
+form label{
+    margin: 1vh 1%;
+}
+
+form input{
+    margin: 1vh 1%;
 }
 
 
@@ -175,7 +184,7 @@ form{
     header{
         display: flex;
         justify-content: space-between;
-        color: #d7d7d7;
+        color: #ffffff;
     }
     
     .logo, img{
