@@ -72,10 +72,10 @@ img{
 }
 
 .memory-game {
-    width: 80vw;
+    width: 90vw;
     height: 80vh;
     padding-top: 20px;
-    margin: 10vh 10vw;
+    margin: 10vh 5vw;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
@@ -134,7 +134,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;  
+    display: none; 
 }
 
 .modal-content {
