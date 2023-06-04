@@ -216,7 +216,29 @@ section{
 
 /*Media query for Tablets*/
 
-@media only screen and (min-width: 450px) and (max-width: 912px) {
+@media only screen and (min-width: 451px) and (max-width: 912px) {
 
-   
+   .menu{
+        width: 100%;
+        margin: 10vh auto;
+        height:33vh;
+        display:grid;
+        grid-template-columns: 33vw 33vw;
+        grid-row: auto;
+        grid-column-gap: 25vw;
+        overflow: hidden;
+        justify-content: center;
+   }
+
+   .menu-card{
+        height: 25vh;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+   }
+
+   .social-div{
+        height: 10vh;
+        margin: 5vh auto;
+   }
 }
