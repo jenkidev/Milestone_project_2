@@ -9,8 +9,9 @@
 body {
     height: 100vh;
     display: flex;
-    background: linear-gradient(180deg, #341883 69.27%, #000000 100%);
-    background-attachment: fixed;
+    background: url("../images/Tree_Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .game-info {
