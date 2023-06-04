@@ -174,3 +174,24 @@ img{
     color:#ffff;
     border-radius: 10px;
 }
+
+/*Media query for larger devices*/
+
+@media only screen and (min-width: 450px) {
+    .memory-game {
+        width: 640px;
+        height: 640px;
+        padding-top: 20px;
+        margin: 10vh auto;
+        display: flex;
+        flex-wrap: wrap;
+        perspective: 1000px;
+    }
+}
+
+
+/*Media query for Tablets*/
+
+@media only screen and (min-width: 451px) and (max-width: 912px) {
+
+}
