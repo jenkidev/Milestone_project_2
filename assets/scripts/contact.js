@@ -9,8 +9,12 @@ function sendMail() {
     "Iw8TFysbugKKsDqz7")
     .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
+        alert("Your message has been sent")
      }, function(error) {
         console.log('FAILED...', error);
      });
+     setTimeout(function() {
+      form.reset();
+    }, 3000);
      return false
 }
