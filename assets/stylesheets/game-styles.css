@@ -91,15 +91,6 @@ img{
     perspective: 1000px;
 }
 
-.menu{
-    width: 640px;
-    height: 640px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    perspective: 1000px;
-}
-
 /* Styling relevant to memory cards */
 .memory-card{
     width: calc(25% - 10px);
