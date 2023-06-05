@@ -9,6 +9,8 @@
     <title>Flip- The Animal Matching Card Game</title>
 </head>
 <body>
+
+    <!-- This div is a top of the page element that provides users witht their game information and a link to return to the home page -->
     <div class="game-info">
         <div class="moves">
             Moves: 0
@@ -20,6 +22,8 @@
             <p>Time: 0:00</p>
         </div>
     </div>
+
+    <!-- This div contains the memory game which is made up of a 4x4 grid of images -->
     <div class="memory-game">
         <div class="memory-card" data-frame="Cheetah">
             <img class="front-face" src="assets/images/Cheetah.png" alt="Cartoon image of Cheetah">
@@ -86,6 +90,8 @@
             <img class="back-face" src="assets/images/Tree.png"  alt="Cartoon image of Tree">
         </div>
     </div>
+
+    <!-- This div is for a hidden modal that becomes visible upon game completion -->
     <div class="bg-modal">
         <div class="modal-content">
             <img class="modal-image" src="assets/images/Win_Image.png" alt="Cartoon drawing of two elephants holding Heart balloon">
@@ -96,6 +102,8 @@
             <a href="index.html"><div class="modal-home">Back To Home</div></a>
         </div>
     </div>
+
+    <!-- This javascript links to functions that control the memory game and make the modal visible upon game completion -->
     <script src="assets/scripts/game-scripts.js"></script>
 </body>
 </html>
