@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/stylesheets/menu-styles.css" type="text/css">
+    
+    <!-- This javascript links to the emailJS SDK -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script>
@@ -16,9 +18,15 @@
     <title>Flip- The Animal Matching Card Game</title>
 </head>
 <body>
+
+    <!-- This header contains the top elements of the page which are both the logo and the nav bar -->
     <header>
+
+        <!-- This div is used to contain the logo for the site -->
         <div class="logo"><img src="assets/images/Logo_transparent.png" alt="Flip game logo"></div>
         <div>
+
+            <!-- This div containes the Nav bar for the site to allow users to access the different pages -->
             <nav class="banner">
                 <ul>
                     <li>
@@ -33,6 +41,8 @@
                 </ul>
             </nav>
         </div>
+        
+        <!-- This is the contact form where users can submit ideas for future developments -->
         <div>
             <form id="contactForm" onsubmit="return sendMail(this);" action="index.html">
                 <label for="name">Full Name:</label><br>
@@ -46,6 +56,8 @@
             </form>
         </div>
     </header>
+
+    <!-- Connects to contact.js for the sendMail() function -->
     <script src="assets/scripts/contact.js"></script>
 </body>
 
