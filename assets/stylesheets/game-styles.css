@@ -1,5 +1,8 @@
+/* Full Page styling */
+
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700');
 
+/* This ensures that the image takes up the whole of the memory card div */
 *{
     padding: 0;
     margin: 0;
@@ -14,6 +17,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Styling relevant to game info section that provides user with information and link back to home page */
 .game-info {
     width: 100%;
     display: flex;
@@ -27,11 +31,7 @@ body {
     font-weight: 800;
 }
 
-.home:hover {
-    transform: scale(.97);
-    transition: transform .2s;
-}
-
+/*Styling relevant for Move tracking div */
 .moves {
     width: calc(33% - 5px);
     height: 50px;
@@ -42,6 +42,7 @@ body {
     border: 5px solid #0b7435; 
 }
 
+/* Styling relevant for div that links back to home */
 .home {
     width: calc(33% - 5px);
     height: 50px;
@@ -52,11 +53,17 @@ body {
     color: #000000;
 }
 
+.home:hover {
+    transform: scale(.97);
+    transition: transform .2s;
+}
+
 .home a {
     text-decoration: none;
     color: inherit;
 }
 
+/* Styling relevant for div which tracks user time during game */
 .timer {
     width: calc(33% - 5px);
     height: 50px;
@@ -67,11 +74,13 @@ body {
     border: 5px solid #0b7435; 
 }
 
+/* Ensures img takes up max space in memory card */
 img{
     width: max-content;
     height: max-content;
 }
 
+/* Styling relevant to whole memory game */
 .memory-game {
     width: 90vw;
     height: 80vh;
@@ -91,6 +100,7 @@ img{
     perspective: 1000px;
 }
 
+/* Styling relevant to memory cards */
 .memory-card{
     width: calc(25% - 10px);
     height: calc(25% - 10px);
@@ -110,6 +120,7 @@ img{
     transform: rotateY(180deg);
 }
 
+/* This styling allows the images to behave as though they were cards with two faces by overlaying them and hiding one face */
 .front-face,
 .back-face {
     width: 100%;
@@ -121,10 +132,12 @@ img{
     backface-visibility: hidden;
 }
 
+/* This styling rotates the image to the right direction after the flip event has occured */
 .front-face {
     transform: rotateY(180deg);
 }
 
+/* This styling is for the modal that will cover the whole page, it is hidden by default */
 .bg-modal {
     background-color: rgba(0, 0, 0, 0.3);
 	width: 100%;
@@ -138,6 +151,7 @@ img{
     display: none; 
 }
 
+/* The below styling is relevant to the content of the modal once it has been made visible */
 .modal-content {
     width: 75vw;
     height: 75vh;
