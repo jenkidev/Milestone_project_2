@@ -165,12 +165,11 @@ form{
     border-radius: 10px;
     top: 35vh;
     left: 12.5vw;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 form label{
     margin: 1vh 1%;
-    font-size: 3vw;
 }
 
 form input{
