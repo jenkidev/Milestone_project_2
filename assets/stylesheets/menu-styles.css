@@ -240,6 +240,10 @@ form input{
         height: 100px;
     }
 
+    form{
+        font-size: 2vw;
+    }
+
     
 }
 
