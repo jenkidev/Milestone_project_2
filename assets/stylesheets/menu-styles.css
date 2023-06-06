@@ -97,6 +97,7 @@ section{
     position: relative;
     transform: scale(1);
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transition: .5s;
 }
 
@@ -109,9 +110,8 @@ section{
     padding: 10px;
     position: absolute;
     border-radius: 5px;
-    -webkit-perspective: 0;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
 }
 
 .menu-card.flip {
