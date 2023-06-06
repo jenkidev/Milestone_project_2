@@ -245,9 +245,19 @@ form input{
 
 /*Media query for Tablets*/
 
-@media only screen and (min-width: 451px) and (max-width: 912px) {
+@media only screen and (min-width: 451px) and (max-width: 916px) {
 
-   .menu{
+    .logo, img{
+        height: 50%;
+        width: 50%;
+        
+    }
+
+    .banner, ul{
+        font-size: 3vw;
+    }
+   
+    .menu{
         width: 100%;
         margin: 10vh auto;
         height:33vh;
@@ -275,4 +285,5 @@ form input{
    .front-face{
         font-size: 50%;
    }
+
 }
