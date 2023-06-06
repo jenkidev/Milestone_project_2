@@ -109,7 +109,9 @@ section{
     padding: 10px;
     position: absolute;
     border-radius: 5px;
+    -webkit-perspective: 0;
     -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .menu-card.flip {
