@@ -292,7 +292,7 @@ form input{
 
    form{
     margin-top: 5vh;
-    height: 50vh;
+    height: fit-content;
     font-size: 3vh;
    }
 }
