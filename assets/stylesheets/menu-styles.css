@@ -156,7 +156,7 @@ form{
     border-radius: 10px;
     top: 35vh;
     left: 12.5vw;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 form label{
@@ -248,13 +248,13 @@ form input{
 @media only screen and (min-width: 451px) and (max-width: 916px) {
 
     .logo, img{
-        height: 50%;
-        width: 50%;
+        height: 33%;
+        width: 33%;
         
     }
 
     .banner, ul{
-        font-size: 3vw;
+        font-size: 2vw;
     }
    
     .menu{
@@ -287,6 +287,8 @@ form input{
    }
 
    form{
-    margin-top: 10vh;
+    margin-top: 5vh;
+    height: 50vh;
+    font-size: 3vh;
    }
 }
