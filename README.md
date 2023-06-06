@@ -14,6 +14,27 @@
     4. [Scope](#scope)
 3. [Design of Site](#design-of-site)
     1. [Initial Idea](#initial-idea)
+    2. [Wireframes](#wireframes)
+    3. [Site Layout](#site-layout)
+    4. [Colour Choices](#colour-choices)
+    5. [Fonts](#fonts)
+4. [Technologies Implemented](#technologies-implemented)
+    1. [Languages](#languages)
+    2. [Tools](#tools)
+5. [Site Features](#site-features)
+6. [Testing](#testing)
+    1. [Validation](#validation)
+        1. [HTML Validation](#html-validation)
+        2. [CSS Validation](#css-validation)
+        3. [JavaScript Validation](#javascript-validation)
+    2. [Performance and Accessibility](#performance-and-accessibility)
+    3. [Device Tests](#device-tests)
+    4. [Responsiveness](#responsiveness)
+    5. [User Story Tests](#user-story-tests)
+7. [Bug Squashing](#bug-squashing)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Thank You](#thank-you)
 
 
 ## Project Goals
@@ -74,19 +95,45 @@ The scope of the project in it’s first release is defined by the following fea
 ### Initial idea
 The initial design idea of the site is to create a simple memory card flipping game for a user to have fun with. The focus of the site is to be on the game and so I will create a simple hosting site which does not distract from the purpose. To keep within the theme of the card flipping all options on the scrolling webpage will be contained within card flipping containers to allow the interactivity to extend beyond the game. 
 
-### Colours
+### Wireframes
 The colours selected for this project are meant to be complementary and boldly distinct from one another. The colour theme for the containers are meant to mimic the self designed logo. #F060B7
 
-### Wireframes
+### Site Layout
 
-<details><summary>index.html(Unclicked)</summary>
-<img src="Docs/Wireframes/Unclicked Mobile Home page.png" alt="unclicked Mobile wireframe">
-</details>
+### Colour Choices
 
-<details><summary>index.html(Clicked)</summary>
-<img src="Docs/Wireframes/Clicked Mobile home page.png" alt="unclicked Mobile wireframe">
-</details>
+### Fonts
 
-<details><summary>game.html</summary>
-<img src="Docs/Wireframes/Mobile Game page.png" alt="Mobile Game">
-</details>
+## Technologies Implemented
+
+### Languages
+
+### Tools
+
+## Site Features
+
+## Testing
+    
+### Validation
+
+#### HTML Validation 
+
+#### CSS Validation
+
+#### JavaScript Validation
+
+### Performance and Accessibility
+
+### Device Tests
+
+### Responsiveness
+
+### User Story Tests
+
+## Bug Squashing
+
+## Deployment
+
+## Credits
+
+## Thank You
