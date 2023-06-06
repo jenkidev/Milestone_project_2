@@ -286,4 +286,7 @@ form input{
         font-size: 50%;
    }
 
+   form{
+    margin-top: 10vh;
+   }
 }
