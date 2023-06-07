@@ -101,6 +101,8 @@ section{
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
     transition: .5s;
 }
 
