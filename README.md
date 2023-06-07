@@ -160,11 +160,26 @@ N.B. The site has gone through some revision. During the course of the project I
     
 ### Validation
 
-1. HTML Validation 
+#### HTML Validation- W3C markup validation service was used to assess the validity of my HTML code.
 
-2. CSS Validation
+<details><summary>HTML Validation of Home Page</summary><img src="Docs/Validation/HTML/HTML_Validation_Index.png"></details><br>
+<details><summary>HTML Validation of Game Page</summary><img src="Docs/Validation/HTML/HTML_Validation_Game_page.png"></details><br>
+<details><summary>HTML Validation of Contact Page</summary><img src="Docs/Validation/HTML/HTML_Validation_contact_page.png"></details><br>
+<details><summary>HTML Validation of 404 Page</summary><img src="Docs/Validation/HTML/HTML_Validation_404_page.png"></details><br>
 
-3. JavaScript Validation
+
+#### CSS Validation- W3C CSS validation service was used to assess the validity of my CSS code
+
+<details><summary>CSS Validation of Home Page</summary><img src="Docs/Validation/css/Index.html_CSS_(passed).png"></details><br>
+<details><summary>CSS Validation of Game Page</summary><img src="Docs/Validation/css/Game_page_CSS_(passed).png"></details><br>
+<details><summary>CSS Validation of Contact Page</summary><img src="Docs/Validation/css/Contact_page_CSS_(passed).png"></details><br>
+<details><summary>CSS Validation of 404 Page</summary><img src="Docs/Validation/css/404.html_CSS_(passed).png"></details><br>
+
+#### JavaScript Validation- JS hint was used to assess the validity of my scripts
+
+<details><summary>JS Validation of Game Script</summary><img src="Docs/Validation/Javascript/game_script_JS_(passed).png"></details><br>
+<details><summary>JS Validation of Menu Script</summary><img src="Docs/Validation/Javascript/menu_script_JS_(passed).png"></details><br>
+<details><summary>JS Validation of Contact Script</summary><img src="Docs/Validation/Javascript/contact_JS_(passed).png"></details><br>
 
 ### Performance and Accessibility
 
