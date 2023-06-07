@@ -145,9 +145,14 @@ The font used for the site is the "Exo" font as this had quite a bold and easy t
 * HTML
 * CSS
 * JavaScript
-
 ### Tools
 
+* Figma - Used to develop the wireframes and create the site logo.
+* Favicon<span>.</span>io - Used to create favicon for site and generate files to implement.
+* Adobe Cloud - Used to generate Gifs of site functions.
+* Git and Github - Used for version control and hosting.
+* Gitpod - Used as an IDE.
+* Google Fonts - Used to generate custom fonts for the website. 
 ## Site Features
 
 ## Testing
