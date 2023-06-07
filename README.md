@@ -120,6 +120,16 @@ The design for the Game pages are all quite similar regardless of the device. Th
 
 ### Site Layout
 
+The site as designed will be composed of two pages which will be the home landing page and the game page:
+
+* Home page
+
+    This page will be composed of a banner at the top which will contain the logo for the site along with the navigation bar that will allow the user to access the other sections of the site without using the forward or back button on the browser. Below this in the main body of the page will be divs that behave like the flip cards in the game. Each of these divs will be relevent to a section of the website specifically; a div to play the game, a div to find out about the game, a div to see previous scores, a div to contact the website owner and a div to access social media (in an actual release this would connect to pages setup relevent to the website, at present they just connect to the social media home page).
+
+* Game Page
+
+    This page will have the same banner as the Home page to keep consistent across the site. Below the banner will be a section where the number of moves taken during the game and the time taken to complete the game will be tracked. Below that will be the section where the memory cards will be and arranged in a grid. 
+
 ### Colour Choices
 
 ### Fonts
