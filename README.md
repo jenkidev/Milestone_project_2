@@ -137,6 +137,7 @@ Below you will see the main colours selected for this webpage, these were select
 ![Colour scheme](Docs/Colours/Main_colour_scheme.png)
 ### Fonts
 
+The font used for the site is the "Exo" font as this had quite a bold and easy to read style whilst also being curved, thus giving the website an approachable feel. I also provided "sans serif" as a backup as it also clear and legible though not as styled.
 ## Technologies Implemented
 
 ### Languages
