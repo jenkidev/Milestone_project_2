@@ -1,7 +1,7 @@
 # Flip Game
 (by Morgan Jenkins)
 
-
+![Flip-Website-Responsive-Image](Docs/Responsiveness/Am_I_Responsive.png)
 ## Table of Contents
 
 1. [Project Goals](#project-goals)
