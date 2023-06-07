@@ -132,6 +132,9 @@ The site as designed will be composed of two pages which will be the home landin
 
 ### Colour Choices
 
+Below you will see the main colours selected for this webpage, these were selected for both the logo and the divs as they were clear complementary colours and the pastel theme I felt made it more accessible for younger children which was the main target audience. This was backed up by the darker purple which contrasted with the divs quite effectively and was given a linear gradient as the solid fill looked too stark on the page. The text colour was selected to be a white as this would keep the page looking bright and vibrant.
+
+![Colour scheme](Docs/Colours/Main_colour_scheme.png)
 ### Fonts
 
 ## Technologies Implemented
