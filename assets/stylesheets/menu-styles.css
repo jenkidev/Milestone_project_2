@@ -95,8 +95,8 @@ section{
     font-size:24px;
     font-weight: 600;
     position: relative;
-    -webkit-transform: (1);
-    -moz-transform: (1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
     transform: scale(1);
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -119,10 +119,12 @@ section{
 }
 
 .menu-card.flip {
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
 .front-face {
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
