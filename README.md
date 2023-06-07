@@ -142,6 +142,10 @@ The font used for the site is the "Exo" font as this had quite a bold and easy t
 
 ### Languages
 
+* HTML
+* CSS
+* JavaScript
+
 ### Tools
 
 ## Site Features
