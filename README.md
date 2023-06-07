@@ -93,9 +93,29 @@ The scope of the project in it’s first release is defined by the following fea
 ## Design of Site
 
 ### Initial idea
-The initial design idea of the site is to create a simple memory card flipping game for a user to have fun with. The focus of the site is to be on the game and so I will create a simple hosting site which does not distract from the purpose. To keep within the theme of the card flipping all options on the scrolling webpage will be contained within card flipping containers to allow the interactivity to extend beyond the game. 
+The initial design idea of the site is to create a simple memory card flipping game for a user to have fun with. The focus of the site is to be on the game and so I will create a simple hosting site which does not distract from the purpose. To keep within the theme of the card flipping all options on the scrolling webpage will be contained within card flipping containers to allow the interactivity to extend beyond the game. The site will be designed to be accessible to both children and adults.
 
 ### Wireframes
+
+To create the wireframes I used [Figma.com](https://www.figma.com/). I found this service quite useful over other wireframing services as it allowed a much deeper design experience compared to similar services which allowed me to create a clear design scheme to follow for the project.
+
+The Mobile site was designed to be a vertically scrolling page as it is more consistent with how most would use that device (portrait-mode).
+<details><summary>Mobile wireframe Home page (Unclicked)</summary><img src="Docs/Wireframes/Unclicked Mobile Home page.png"></details><br>
+
+Below you will see the rough content of the menu card divs which is kept consistent across all of the device types and so will not be shown again.
+<details><summary>Mobile wireframe Home page (Clicked)</summary><img src="Docs/Wireframes/Unclicked Mobile Home page.png"></details><br>
+
+For Desktop and Tablet, I felt there as the surface area of the screen is a little more akin to a square setting the menu cards out as a grid made more logistical sense in terms of using screen real estate. Therefore the design for both devices is similar.
+<details><summary>Desktop and tablet wireframe Home page</summary><img src="Docs/Wireframes/Index.html_Desktop.png"><img src="/workspace/Milestone_project_2/Docs/Wireframes/Index.html_Tablet.png"></details><br>
+
+
+The design for the Game pages are all quite similar regardless of the device. This was I wanted to keep the interactive experience of the website consistent regardless of the device. This would allow the same user to use a new device and have the same experience.
+
+<details><summary>Mobile wireframe Game page</summary><img src="Docs/Wireframes/Game.html_Mobile.png"></details><br>
+
+<details><summary>Tablet wireframe Game page</summary><img src="Docs/Wireframes/Game.html_Tablet.png"></details><br>
+
+<details><summary>Desktop wireframe Game page</summary><img src="Docs/Wireframes/Game.html_Desktop.png"></details><br>
 
 
 ### Site Layout
