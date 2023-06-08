@@ -162,7 +162,7 @@ The font used for the site is the "Exo" font as this had quite a bold and easy t
 * Responsinator.com- Used to assess responsiveness across a large device array and orientations.
 ## Site Features
 
-N.B. The site has gone through some revision. During the course of the project I fell quite ill and had to cut back on several features due to time crunch but still endeavoured to follow a minimal viable product approach. These changes will be detailed in this section.
+N.B. The site has gone through some revision. During the course of the project I fell quite ill and had to cut back on several features due to time crunch but still endeavoured to follow a minimal viable product approach. These changes will be detailed in the user stories testing section.
 ## Testing
     
 ### Validation
@@ -210,6 +210,31 @@ The website was tested on the following devices:
 [Responsinator](http://www.responsinator.com/?url=jenkidev.github.io%2FMilestone_project_2%2F) was used to assess the responsiveness of the project. 
 
 ### User Story Tests
+
+#### First-time User 
+1. I want to play the Flip card memory game.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Game page, Menu cards and Nav Bar | User clicks on menu card div or Play the game link on index.html and begins game on casual-game-page.html | casual-game-page.html should open and the user should be able to start the game by clicking on the first card | Works according to expectation |
+
+2. I want to save my result upon completion.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Game Page | Finishing the game by matching all the cards | The users number of moves and time taken are stored locally on the website and exported to a leaderboard on index.html | Had to abandon this part due to time crunch will be included in fututre versions of the site |
+
+3. I want to see my results.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Game Page, Home Page | Flipping the Game Stats Div on index.html, Looking at the top of the casual-game-page.html in the game info bar | User can scroll through a leaderboard on index.html to see their lowest number of moves and lowest time for completing the game. User can look at top of game page to clearly see the number of moves taken and the time taken to complete game upon completion | Had to abandon leaderboard due to time crunch will be included in future versions of the site, game-info bar at top of casual-game-page.html functions as expected |
+
+4. I want to contact the creator of the site.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Home page, Contact Us Page | User can flip contact us menu card and fill out form to be submitted with suggestions or issues, they can also access a contact page where the same form will be present | User can fill out form with Name, Email and Comments and submit that form which will then be automatically emailed to site owner via EmailJS functionality | Contact form on index.html was not reacting appropriately with the flipping social menu card so was removed, contact-page.html works as expected |
 
 ## Bug Squashing
 
