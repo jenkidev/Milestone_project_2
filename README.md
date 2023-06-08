@@ -59,13 +59,14 @@
 ### Target Audience
 - People who enjoy cognitive memory games.
 - People who enjoy escalating levels of challenge.
+- Young Ages to Old.
 
 ### User Requirements and Expectations
 - Easy to navigate site and intuitive design.
 - Clear and simple to follow instructions.
 - Responsive design that adapts to mobile, tablet and desktop.
 - Easy to fill out contact form.
-- 
+
 ### User Stories
 #### First-time User 
 1. I want to play the Flip card memory game.
