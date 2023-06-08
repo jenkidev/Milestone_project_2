@@ -188,6 +188,13 @@ N.B. The site has gone through some revision. During the course of the project I
 
 ### Performance and Accessibility
 
+Google Lighthouse as part of the Chrom dev tools was used to assess performance and accessibility.
+
+<details><summary>Home page Performance and Accessibility</summary><img src="Docs/Performance and accessibility/LightHouse_Score_Home_page.png"></details><br>
+<details><summary>Game page Performance and Accessibility</summary><img src="Docs/Performance and accessibility/LightHouse_Score_Game_page.png"></details>The lower best practices score on the Game page is related to the images used for the flip cards. The aspect ratio needed to be changed from its original value to better fit the page. However care had been taken to ensure images are still legible and clear.<br>
+<br><details><summary>Contact page Performance and Accessibility</summary><img src="Docs/Performance and accessibility/LightHouse_Score_Contact_page.png"></details><br>
+<details><summary>404 page Performance and Accessibility</summary><img src="Docs/Performance and accessibility/LightHouse_Score_404_page.png"></details><br>
+
 ### Device Tests
 
 ### Responsiveness
