@@ -2,9 +2,9 @@
 (by Morgan Jenkins)
 
 ![Flip-Website-Responsive-Image](Docs/Responsiveness/Am_I_Responsive.png)
-## Table of Contents
 
 [Live Website](https://jenkidev.github.io/Milestone_project_2/)
+## Table of Contents
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
