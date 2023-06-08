@@ -159,6 +159,7 @@ The font used for the site is the "Exo" font as this had quite a bold and easy t
 * Git and Github - Used for version control and hosting.
 * Gitpod - Used as an IDE.
 * Google Fonts - Used to generate custom fonts for the website. 
+* Responsinator.com- Used to assess responsiveness across a large device array and orientations.
 ## Site Features
 
 N.B. The site has gone through some revision. During the course of the project I fell quite ill and had to cut back on several features due to time crunch but still endeavoured to follow a minimal viable product approach. These changes will be detailed in this section.
@@ -199,6 +200,8 @@ Google Lighthouse as part of the Chrom dev tools was used to assess performance 
 ### Device Tests
 
 ### Responsiveness
+
+[Responsinator](http://www.responsinator.com/?url=jenkidev.github.io%2FMilestone_project_2%2F) was used to assess the responsiveness of the project. 
 
 ### User Story Tests
 
