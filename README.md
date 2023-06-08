@@ -256,6 +256,38 @@ The website was tested on the following devices:
 | ---------------- | --------------- | --------------- | ---------- |
 | Home Page, Contact Us Page | User can flip contact us menu card and fill out form to be submitted with suggestions or issues, they can also access a contact page where the same form will be present | User can fill out form with Name, Email and Comments and submit that form which will then be automatically emailed to site owner via EmailJS functionality | Contact form on index.html was not reacting appropriately with the flipping social menu card so was removed, contact-page.html works as expected |
 
+#### Site Owner 
+
+8. I want users to be able to play the Flip Card game on mobile, tablet and desktop.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Game Page | User accesses game page on any device and orientation | The user should be able to clearly see all elements of the page and click or tap on them comfortably and complete the game | Works as expected |
+
+9. I want users to be able to save their previous results for all difficulty levels.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Home Page, Game page | User can select a different difficulty level on home page, user completes game | The different level will increase or decrease the number of cards in the game thus changing difficulty, the score will be locally saved on the website | Both were scrapped. The difficulty levels were removed because changing number of cards caused issues with legibility of images especially when there were high numbers of cards. Abandoned results saving due to time crunch but will be included in future versions of the site |
+
+10. I want users to be able to see their previous scores for all difficulty levels.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Home Page | User Should click on game stats div | User will see the lowest number of moves taken during the memory game and the shortest amount of time taken to complete | Had to abandon this part due to time crunch will be included in future versions of the site |
+
+11. I want users to be able to contact me with suggestions and issue reports.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Contact Us Page | User can access a contact page where a form will be present to fill out | The user can provide their Name, E-mail and suggestions which upon submission will be emailed to site owner via EmailJS client | Works as expected |
+
+12. I want users to navigate the site without using the browser back button.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Nav Bar, 404 page | Users click on parts of nav bar, users click on link in 404.html | If a user clicks on a link on the nav bar it takes them to the page they expect, if a 404 error occurs they are taken to a styled 404 page (404.html) where there is a link to direct them back to index.html | Works as expected |
+
 ## Bug Squashing
 
 | **Bug** | **Fix** |
