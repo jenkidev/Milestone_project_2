@@ -231,4 +231,14 @@ If more information is required please consult [GitHub Docs](https://docs.github
 
 ## Credits
 
+* [Memory Game - Vanilla JavaScript](https://marina-ferreira.github.io/tutorials/js/memory-game/)- Code was taken and adapted from this developer to create main functionality of flipping cards in javascript.
+
+* [Create a Simple Popup Modal](https://www.youtube.com/watch?v=gLWIYk0Sd38)- This video was used as assisstance to develop pop up modal upon game completion.
+
+* [Blocsapp Forum](https://forum.blocsapp.com/t/css-backface-visibility-issue-solved/20229/6) and [Stack Overflow](https://stackoverflow.com/questions/42744573/backface-visibility-not-working-in-safari)- Used in solving bug relating to flipping functionality on some safari devices.
+
+* [W3Schools](https://www.w3schools.com/css/css_grid.asp)- Used in implementing grid layout for menu section.
+
+* AntonioRodriguez_Mentor- Big thanks to my mentor Antonio Rodriguez who assited me in developing the timer for the game.
+
 ## Thank You
