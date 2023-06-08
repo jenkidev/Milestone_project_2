@@ -212,25 +212,25 @@ The website was tested on the following devices:
 ### User Story Tests
 
 #### First-time User 
-1. I want to play the Flip card memory game.
+1. <strong>I want to play the Flip card memory game.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Game page, Menu cards and Nav Bar | User clicks on menu card div or Play the game link on index.html and begins game on casual-game-page.html | casual-game-page.html should open and the user should be able to start the game by clicking on the first card | Works according to expectation |
 
-2. I want to save my result upon completion.
+2. <strong>I want to save my result upon completion.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Game Page | Finishing the game by matching all the cards | The users number of moves and time taken are stored locally on the website and exported to a leaderboard on index.html | Had to abandon this part due to time crunch will be included in fututre versions of the site |
 
-3. I want to see my results.
+3. <strong>I want to see my results.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Game Page, Home Page | Flipping the Game Stats Div on index.html, Looking at the top of the casual-game-page.html in the game info bar | User can scroll through a leaderboard on index.html to see their lowest number of moves and lowest time for completing the game. User can look at top of game page to clearly see the number of moves taken and the time taken to complete game upon completion | Had to abandon leaderboard due to time crunch will be included in future versions of the site, game-info bar at top of casual-game-page.html functions as expected |
 
-4. I want to contact the creator of the site.
+4. <strong>I want to contact the creator of the site.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
@@ -238,19 +238,19 @@ The website was tested on the following devices:
 
 #### Returning User
 
-5. I want to see my previous scores for all difficulty levels.
+5. <strong>I want to see my previous scores for all difficulty levels.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Home Page | User Should click on game stats div | User will see the lowest number of moves taken during the memory game and the shortest amount of time taken to complete | Had to abandon this part due to time crunch will be included in future versions of the site |
 
-6. I want to be able to see if I can improve my previous score.
+6. <strong>I want to be able to see if I can improve my previous score.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Home Page, Game Page | User should click on game stats div on index.html, user can also revisit casual-game-page.html | User will see the lowest number of moves taken during the memory game and the shortest amount of time taken to complete, User can replay the memory game and update their score | Had to abandon this part due to time crunch will be included in future versions of the site, replaying the game works as expected |
 
-7. I want to be able to contact the creator of the site if I encounter any issues.
+7. <strong>I want to be able to contact the creator of the site if I encounter any issues.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
@@ -258,31 +258,31 @@ The website was tested on the following devices:
 
 #### Site Owner 
 
-8. I want users to be able to play the Flip Card game on mobile, tablet and desktop.
+8. <strong>I want users to be able to play the Flip Card game on mobile, tablet and desktop.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Game Page | User accesses game page on any device and orientation | The user should be able to clearly see all elements of the page and click or tap on them comfortably and complete the game | Works as expected |
 
-9. I want users to be able to save their previous results for all difficulty levels.
+9. <strong>I want users to be able to save their previous results for all difficulty levels.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Home Page, Game page | User can select a different difficulty level on home page, user completes game | The different level will increase or decrease the number of cards in the game thus changing difficulty, the score will be locally saved on the website | Both were scrapped. The difficulty levels were removed because changing number of cards caused issues with legibility of images especially when there were high numbers of cards. Abandoned results saving due to time crunch but will be included in future versions of the site |
 
-10. I want users to be able to see their previous scores for all difficulty levels.
+10. <strong>I want users to be able to see their previous scores for all difficulty levels.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Home Page | User Should click on game stats div | User will see the lowest number of moves taken during the memory game and the shortest amount of time taken to complete | Had to abandon this part due to time crunch will be included in future versions of the site |
 
-11. I want users to be able to contact me with suggestions and issue reports.
+11. <strong>I want users to be able to contact me with suggestions and issue reports.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
 | Contact Us Page | User can access a contact page where a form will be present to fill out | The user can provide their Name, E-mail and suggestions which upon submission will be emailed to site owner via EmailJS client | Works as expected |
 
-12. I want users to navigate the site without using the browser back button.
+12. <strong>I want users to navigate the site without using the browser back button.</strong>
 
 | **Feature Used** | **User Action** | **Expectation** | **Result** |
 | ---------------- | --------------- | --------------- | ---------- |
