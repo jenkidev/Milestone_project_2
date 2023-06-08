@@ -236,6 +236,26 @@ The website was tested on the following devices:
 | ---------------- | --------------- | --------------- | ---------- |
 | Home page, Contact Us Page | User can flip contact us menu card and fill out form to be submitted with suggestions or issues, they can also access a contact page where the same form will be present | User can fill out form with Name, Email and Comments and submit that form which will then be automatically emailed to site owner via EmailJS functionality | Contact form on index.html was not reacting appropriately with the flipping social menu card so was removed, contact-page.html works as expected |
 
+#### Returning User
+
+5. I want to see my previous scores for all difficulty levels.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Home Page | User Should click on game stats div | User will see the lowest number of moves taken during the memory game and the shortest amount of time taken to complete | Had to abandon this part due to time crunch will be included in future versions of the site |
+
+6. I want to be able to see if I can improve my previous score.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Home Page, Game Page | User should click on game stats div on index.html, user can also revisit casual-game-page.html | User will see the lowest number of moves taken during the memory game and the shortest amount of time taken to complete, User can replay the memory game and update their score | Had to abandon this part due to time crunch will be included in future versions of the site, replaying the game works as expected |
+
+7. I want to be able to contact the creator of the site if I encounter any issues.
+
+| **Feature Used** | **User Action** | **Expectation** | **Result** |
+| ---------------- | --------------- | --------------- | ---------- |
+| Home Page, Contact Us Page | User can flip contact us menu card and fill out form to be submitted with suggestions or issues, they can also access a contact page where the same form will be present | User can fill out form with Name, Email and Comments and submit that form which will then be automatically emailed to site owner via EmailJS functionality | Contact form on index.html was not reacting appropriately with the flipping social menu card so was removed, contact-page.html works as expected |
+
 ## Bug Squashing
 
 | **Bug** | **Fix** |
