@@ -199,6 +199,12 @@ Google Lighthouse as part of the Chrom dev tools was used to assess performance 
 
 ### Device Tests
 
+The website was tested on the following devices:
+* Samsung Galaxy M31
+* iPhone 12 Pro
+* Ipad Pro 4th Gen
+* Asus Vivobook laptop (X515JAB_X515JA)
+
 ### Responsiveness
 
 [Responsinator](http://www.responsinator.com/?url=jenkidev.github.io%2FMilestone_project_2%2F) was used to assess the responsiveness of the project. 
