@@ -33,6 +33,9 @@
     5. [User Story Tests](#user-story-tests)
 7. [Bug Squashing](#bug-squashing)
 8. [Deployment](#deployment)
+    * [Deploying to Github Pages](#deploying-to-github-pages)
+    * [Forking the githubrepository](#forking-the-github-repository)
+    * [Cloning the repository](#cloning-the-github-repository)
 9. [Credits](#credits)
 10. [Thank You](#thank-you)
 
@@ -194,7 +197,38 @@ N.B. The site has gone through some revision. During the course of the project I
 | **Bug** | **Fix** |
 |---------|---------|
 |On some safari devices the menu cards would not flip correctly, and the backface would disappear thus rendering the text invisible.| I was not able to completely erase this bug however I was able to eliminate the phenemenon that caused the text to disappear, it seems to be a known issue among safari's interaction with the back-face visibility property. The fix was found here: https://forum.blocsapp.com/t/css-backface-visibility-issue-solved/20229/6. Adding the webkit prefix to all properties relating to the flipping effect also did not work but once the Translate Z property was applied functionality was returned. What I beleieve happened was the front and back faces of the div occupied the same space on the z axis which once the backface-visibility property was applied hid both faces of the div. Unfortunately this seems to have removed the 3d flip effect however allowing both faces of the div to be visible and the fact this is an issue with only a small number of devices I believe this to be a successful fix for the current moment.
+
 ## Deployment
+
+### Deploying to GitHub Pages
+
+To deploy the site I used github pages: 
+1. In the GitHub repository, select the Settings option 
+2. From the left hand menu select 'Pages'
+3. From the source select the main branch
+4. 'Save'
+5. Once successfully deployed a clickable link will be shown.
+ 
+
+The live site can be found here -  https://jenkidev.github.io/Milestone_project_1/index.html
+
+### Forking the GitHub Repository
+
+You can fork the repository by following these steps:
+1. Go to the GitHub repository
+1. Click on Fork button
+
+### Cloning the GitHub Repository
+
+You can clone the repository to use locally by following these steps:
+1. Navigate to the GitHub Repository you want to clone
+2. Click on the code drop down button
+3. Click on HTTPS
+4. Copy the repository link to the clipboard
+5. Open your IDE of choice (git must be installed for the next steps)
+6. Type git clone copied-git-url into the IDE terminal
+
+If more information is required please consult [GitHub Docs](https://docs.github.com/en)
 
 ## Credits
 
