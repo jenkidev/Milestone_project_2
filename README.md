@@ -379,6 +379,8 @@ If more information is required please consult [GitHub Docs](https://docs.github
 
 * [W3Schools](https://www.w3schools.com/css/css_grid.asp)- Used in implementing grid layout for menu section.
 
+* [Pixabay](https://pixabay.com/)- Used to aquire images for website.
+
 * AntonioRodriguez_Mentor- Big thanks to my mentor Antonio Rodriguez who assited me in developing the timer for the game.
 
 ## Thank You
