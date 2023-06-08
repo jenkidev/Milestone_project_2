@@ -162,7 +162,53 @@ The font used for the site is the "Exo" font as this had quite a bold and easy t
 * Responsinator.com- Used to assess responsiveness across a large device array and orientations.
 ## Site Features
 
-N.B. The site has gone through some revision. During the course of the project I fell quite ill and had to cut back on several features due to time crunch but still endeavoured to follow a minimal viable product approach. These changes will be detailed in the user stories testing section.
+N.B. The site has gone through some revision. During the course of the project I fell quite ill and had to cut back on several features due to time crunch but still endeavoured to follow a minimal viable product approach. These changes will be detailed in this section and the user stories testing section.
+
+### Home Page 
+
+* This is the first thing a new or returning user will see. 
+* At the top of the page is a banner div which contains the logo for the site and the navigation bar. Users can click on the navigation bar links to access other areas of the site. 
+* Below this is the Hero text which welcomes users to the site and informs them about the menu cards below. 
+* The main section of this page are the menu cards which behave like the flip cards in the game, upon being clicked or tapped the menu card will flip over to give more information or links. 
+
+There have been changes to this page as development continued. 
+* After implementing the colour background the site looked a bit too basic and plain. So I decided to add a pictured background which would tie into the theme of the flip card game which is rescuing animals, thus the cartoon picture of plains. 
+* The game stats menu card was removed as the stats tracking feature could not be implemented in time due to time loss and complexity.
+* The Contact us menu card was removed due to an issue implementing a form onto the flip card where it would show on both the front face and back face of the div. 
+
+<details><summary>Index page Gif showing functionionality</summary><img src="Docs/Feature videos/Gif_index_page.gif"></details>
+
+### Game Page
+
+* Structure of this page is distinct to inform users that it is the game page.
+* At top of the page is a game info bar that contains three divs, one counting the users number of moves, one that records the time that the user takes to complete the game and one that acts as a link back to the home page.
+* Below this in the middle of the page is the momory game where users try to match two identical images by flipping over cards. If the cards are not a match they will flip back over and the user can select two more cards. If they are a match they remain flipped and are no longer interactable. 
+* Upon matching all the images a modal appears on the screen informing the user the game is over and they can select an option to play again or return to the home screen. 
+
+There have been changes to this page as development continued.
+* The multiple levels of challenge were not implemented because as the number of cards increased the images became too small if they were to all fit on the page thus effecting UX. Therefore max number of cards was used while still being legible.
+* Saving the scores proved a greater challenge than expected and fell victim to time crunch, this would be implemented in a later version of the website.
+
+<details><summary>Game page Gif showing functionionality</summary><img src="Docs/Feature videos/Gif_Game_page.gif"></details>
+
+### Contact Page
+
+* This page was developed due to issues with contact us memory card on home page.
+* Top of page structure is the same as index.html.
+* In middle of the page is a form with which a user can provide their name, email address and a text field so suggestions and issues can be reported.
+* Upon submit being clicked the form is sent to the site owner with the emailJS client.
+* A alert is then triggered to inform the user that the email was sent successfully.
+
+<details><summary>Contact page Gif showing functionionality</summary><img src="Docs/Feature videos/Gif_contact_page.gif"></details>
+
+### 404 Page
+
+* Top of page structure is the same as index.html.
+* In middle of page is message indicating that the user is somewhere that 'Doesn't exist'.
+* Within the message is a link that allows user to get back to the home page.
+
+<details><summary>404 page Gif showing functionionality</summary><img src="Docs/Feature videos/Gif_404_page.gif"></details>
+
 ## Testing
     
 ### Validation
