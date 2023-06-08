@@ -242,3 +242,7 @@ If more information is required please consult [GitHub Docs](https://docs.github
 * AntonioRodriguez_Mentor- Big thanks to my mentor Antonio Rodriguez who assited me in developing the timer for the game.
 
 ## Thank You
+
+* My mentor Antonio Rodriguez for his help and advice in creating this project.
+* To the team at [Code Institute](https://codeinstitute.net/) for the lessons and support.
+* My Partner for helping with project testing and supporting me through it.
