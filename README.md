@@ -191,6 +191,9 @@ N.B. The site has gone through some revision. During the course of the project I
 
 ## Bug Squashing
 
+| **Bug** | **Fix** |
+|---------|---------|
+|On some safari devices the menu cards would not flip correctly, and the backface would disappear thus rendering the text invisible.| I was not able to completely erase this bug however I was able to eliminate the phenemenon that caused the text to disappear, it seems to be a known issue among safari's interaction with the back-face visibility property. The fix was found here: https://forum.blocsapp.com/t/css-backface-visibility-issue-solved/20229/6. Adding the webkit prefix to all properties relating to the flipping effect also did not work but once the Translate Z property was applied functionality was returned. What I beleieve happened was the front and back faces of the div occupied the same space on the z axis which once the backface-visibility property was applied hid both faces of the div. Unfortunately this seems to have removed the 3d flip effect however allowing both faces of the div to be visible and the fact this is an issue with only a small number of devices I believe this to be a successful fix for the current moment.
 ## Deployment
 
 ## Credits
