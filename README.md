@@ -4,6 +4,8 @@
 ![Flip-Website-Responsive-Image](Docs/Responsiveness/Am_I_Responsive.png)
 ## Table of Contents
 
+[Live Website](https://jenkidev.github.io/Milestone_project_2/)
+
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
@@ -208,9 +210,6 @@ To deploy the site I used github pages:
 3. From the source select the main branch
 4. 'Save'
 5. Once successfully deployed a clickable link will be shown.
- 
-
-The live site can be found here -  https://jenkidev.github.io/Milestone_project_1/index.html
 
 ### Forking the GitHub Repository
 
