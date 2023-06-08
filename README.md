@@ -338,7 +338,7 @@ The website was tested on the following devices:
 
 | **Bug** | **Fix** |
 |---------|---------|
-|On some safari devices the menu cards would not flip correctly, and the backface would disappear thus rendering the text invisible.| I was not able to completely erase this bug however I was able to eliminate the phenemenon that caused the text to disappear, it seems to be a known issue among safari's interaction with the back-face visibility property. The fix was found here: https://forum.blocsapp.com/t/css-backface-visibility-issue-solved/20229/6. Adding the webkit prefix to all properties relating to the flipping effect also did not work but once the Translate Z property was applied functionality was returned. What I beleieve happened was the front and back faces of the div occupied the same space on the z axis which once the backface-visibility property was applied hid both faces of the div. Unfortunately this seems to have removed the 3d flip effect however allowing both faces of the div to be visible and the fact this is an issue with only a small number of devices I believe this to be a successful fix for the current moment. UPDATE: Upon retesting the 3d effect appears to have been activated, not sure what caused the change but possibly related to the cache. 
+|On some safari devices the menu cards would not flip correctly, and the backface would disappear thus rendering the text invisible.| I was not able to completely erase this bug however I was able to eliminate the phenomenon that caused the text to disappear, it seems to be a known issue among safari's interaction with the back-face visibility property. The fix was found here: https://forum.blocsapp.com/t/css-backface-visibility-issue-solved/20229/6. Adding the webkit prefix to all properties relating to the flipping effect also did not work but once the Translate Z property was applied functionality was returned. What I beleieve happened was the front and back faces of the div occupied the same space on the z axis which once the backface-visibility property was applied hid both faces of the div. Unfortunately, this seems to have removed the 3d flip effect however allowing both faces of the div to be visible and the fact this is an issue with only a small number of devices I believe this to be a successful fix for the current moment. UPDATE: Upon retesting the 3d effect appears to have been activated, not sure what caused the change but possibly related to the cache. 
 
 ## Deployment
 
@@ -371,17 +371,17 @@ If more information is required please consult [GitHub Docs](https://docs.github
 
 ## Credits
 
-* [Memory Game - Vanilla JavaScript](https://marina-ferreira.github.io/tutorials/js/memory-game/)- Code was taken and adapted from this developer to create main functionality of flipping cards in javascript.
+* [Memory Game - Vanilla JavaScript](https://marina-ferreira.github.io/tutorials/js/memory-game/)- Code was taken and adapted from this developer to create main functionality of flipping cards in JavaScript.
 
-* [Create a Simple Popup Modal](https://www.youtube.com/watch?v=gLWIYk0Sd38)- This video was used as assisstance to develop pop up modal upon game completion.
+* [Create a Simple Popup Modal](https://www.youtube.com/watch?v=gLWIYk0Sd38)- This video was used as assistance to develop pop up modal upon game completion.
 
 * [Blocsapp Forum](https://forum.blocsapp.com/t/css-backface-visibility-issue-solved/20229/6) and [Stack Overflow](https://stackoverflow.com/questions/42744573/backface-visibility-not-working-in-safari)- Used in solving bug relating to flipping functionality on some safari devices.
 
 * [W3Schools](https://www.w3schools.com/css/css_grid.asp)- Used in implementing grid layout for menu section.
 
-* [Pixabay](https://pixabay.com/)- Used to aquire images for website.
+* [Pixabay](https://pixabay.com/)- Used to acquire images for website.
 
-* AntonioRodriguez_Mentor- Big thanks to my mentor Antonio Rodriguez who assited me in developing the timer for the game.
+* AntonioRodriguez_Mentor- Big thanks to my mentor Antonio Rodriguez who assisted me in developing the timer for the game.
 
 ## Thank You
 
