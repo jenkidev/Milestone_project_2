@@ -91,7 +91,7 @@ timeContainer.innerHTML = "Time- Minutes: " + minutes + " Seconds: " + seconds;
 function timer() {
     time = setInterval(function() {
         seconds++;
-        if (seconds === 59) {
+        if (seconds === 60) {
             minutes++;
             seconds = 0;
         }
